@@ -23,6 +23,11 @@ return {
       highlight = {
         enable = true,
       },
+
+      auto_install = true,
+      sync_install = false,
+      ignore_install = {},
+      modules = {},
       -- enable indentation
       indent = { enable = true },
       -- enable autotagging (w/ nvim-ts-autotag plugin)
